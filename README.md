@@ -56,7 +56,7 @@ qa-automation-assignment/
 ## Clone Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/ShubhamMirani2/QA-automation-assignment.git
 ```
 
 ## Create Virtual Environment
@@ -105,8 +105,8 @@ Example:
 
 ```env
 BASE_URL=https://dummyjson.com
-USERNAME=emilys
-PASSWORD=emilyspass
+USER_CRED=emilys
+PASS_CRED=emilyspass
 ```
 
 ---
@@ -176,4 +176,4 @@ pytest tests/ui --html=ui_report.html
 
 # CI/CD
 
-GitHub Actions pipeline included for automated execution in headless environment.
+GitHub Actions pipeline included for automated execution in headless environment. We have also used GitHub Secrets and HTML reports generation, once test suite is exceuted by GitHub Actions.
