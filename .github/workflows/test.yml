@@ -17,8 +17,8 @@ jobs:
 
     env:
       BASE_URL: ${{ secrets.BASE_URL }}
-      USERNAME: ${{ secrets.USER_CRED }}
-      PASSWORD: ${{ secrets.PASS_CRED }}
+      USER_CRED: ${{ secrets.USER_CRED }}
+      PASS_CRED: ${{ secrets.PASS_CRED }}
 
     steps:
 
